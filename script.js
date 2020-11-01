@@ -30,10 +30,13 @@ for(i = startDay; i<=endDay; i++){
     newRow.append(newTextArea);
 
     var newBtn = $("<button>");
-    newBtn.text("Save")
+    newBtn.text("Save");
     newBtn.attr("class", "col-1 saveBtn")
     newBtn.attr("id", i)
+    // newBtn.innerHTML = '<i class="far fa-calendar-check"></i>';
     newRow.append(newBtn)
+    // e.innerHTML = '<i class="fa fa-trash-o" aria-hidden="true"></i>';
+    // <i class="far fa-calendar-check"></i>
     
     timeblockEl.append(newRow)
 }

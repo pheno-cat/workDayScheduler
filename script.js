@@ -35,7 +35,7 @@ for(i = startDay; i<=endDay; i++){
     newBtn.attr("id", i)
     // newBtn.innerHTML = '<i class="far fa-calendar-check"></i>';
     newRow.append(newBtn)
-    // e.innerHTML = '<i class="fa fa-trash-o" aria-hidden="true"></i>';
+    
     // <i class="far fa-calendar-check"></i>
     
     timeblockEl.append(newRow)
